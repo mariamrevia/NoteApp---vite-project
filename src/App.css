@@ -1,0 +1,39 @@
+.my-container {
+
+    display: flex;
+    margin-top: 3%;
+    flex-direction: column;
+
+}
+
+
+.newnote--title {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.newnote--div {
+
+    width: 80%;
+}
+
+.button-stack {
+    display: flex;
+
+
+    margin-bottom: 40px;
+}
+
+.newnote--title {
+    display: flex;
+    height: 50px;
+    width: 200px;
+    margin-top: 20px;
+
+}
+
+.newnote--div {
+    display: flex;
+    flex-direction: column;
+
+}

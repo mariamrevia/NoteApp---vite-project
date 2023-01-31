@@ -1,0 +1,30 @@
+.card {
+transition: translate ease-in-out 100ms
+;
+box-shadow:ease-in-out 100ms;
+background-color: rgb(231, 243, 243);
+}
+
+
+.card:hover ,
+.card.focus {
+
+    translate: 0 -5px;
+    box-shadow: 0 5px 8px rgb(190, 187, 187);
+}
+
+.button {
+
+    background-color: rgb(193, 219, 219);
+    color: black;
+    border: none;
+}
+.button:hover {
+    background-color: rgb(119, 136, 136);
+}
+
+.badge {
+    background-color: rgb(152, 181, 152);
+    border-radius: 3px;
+    padding: 3px;
+}
